@@ -8,9 +8,18 @@ before:
     title: Welcome!
     body: new-issue.md
 steps:
-  - title: First step
-    description: The first step in your course
-    event: issues.assigned
+  - title: intro to test
+    description: learn how to create your first test
+    event: content_reference
     link: '{{ repoUrl }}'
-    actions:
-      - type: closeIssue
+    actions: []
+  - title: part 2 - test invocations
+    actions: []
+    link: '{{ repoUrl }}'
+    description: learn how to create your first test
+  - title: 'step 3 '
+    actions: []
+    description: '- Connecting test application to a web front end '
+    link: '{{ repoUrl }}'
+  - title: New step
+    actions: []
